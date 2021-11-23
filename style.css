@@ -75,7 +75,7 @@ li {
     width: 150px;
     height: 30px;
     border-radius: 10px;
-
+    cursor: pointer;
 }
 
 #section2 { 
@@ -100,7 +100,12 @@ li {
     align-items: center;
     gap: 50px;
     padding: 50px;
+    flex-wrap: wrap;
+}
 
+#section2 .section2-container div {
+    width: 200px;
+    height: 300px;
 }
 
 #section2 .section2-container img {
