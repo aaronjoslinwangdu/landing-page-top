@@ -1,3 +1,7 @@
+* {
+    font-family: "Courier New", cursive;
+}
+
 body {
     margin: 0px;
 }
@@ -18,7 +22,6 @@ li {
     display: flex;
     background-color: #1f2937;
     margin: 0;
-    font-family: 'Roboto';
     height: 50px;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +30,6 @@ li {
 
 #header .header-logo {
     color: #f9faf8;
-    
     font-size: 24px;
     padding-left: 100px;
 }
@@ -37,22 +39,97 @@ li {
 }
 
 #header .header-links li a{
-    
     font-size: 18px;
     color: #e5e7eb;
 }
 
 #section1 {
-    
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
 }
 
-#section2 {
-    
+#section1 .section1-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+
 }
+
+
+#section1 .section1-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#signup-button {
+    color: #f9faf8;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+#section2 { 
+    background-color: white;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#section2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+#section2 .section2-container {
+    display: flex;
+    background-color: white;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+#section2 .section2-container img {
+    border: solid 2px #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
 
 #section3 {
-    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 150px;
 }
+
+#section3 .section3-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic; 
+    font-weight: lighter;  
+}
+
+#section3 .section3-signature {
+    margin-left: auto;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
 
 #section4 {
     
